@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<style>
+	h1{
+		font-family: "Raleway", sans-serif;
+		text-align: center;
+		font-size: 70px;
+		color:#004466;
+	}
+	.parallax{
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		
+	}
+	.parallax{
+		background-image:url("WebContent/contacte/1288842.jpg");
+	}
+	body{
+		margin: 0;
+	}
+	p{
+		font-family:"Raleway", sans-serif;
+	}
+</style>
+<head>
+<meta charset="ISO-8859-1">
+<title>Energie Regenerabila - Contact</title>
+</head>
+<body>
+	<div class="parallax">
+		<a href="http://liceulnational.ro/" target="_blank">
+		<img src="LOGO___LTN.png" width="105"/></a>
+		<h1>Contactati-ne</h1>
+	</div>
+	<form action="multumesc.html">
+		<p>
+			<label for="name">Numele:</label>
+			<input id="name" name="name"
+			required placeholder="Introduceti numele vostru" />
+		</p>
+		<p>
+			<label for="email">Email: &nbsp; &nbsp;</label>
+			<input id="email" name="email"
+			required placeholder="Introduceti email-ul" />
+		</p>
+		<p>
+			<label for="massage"> Mesajul vostru:</label>
+		</p>
+		<p>
+			<textarea id="message" name="massage" cols="25" rows="5" ></textarea>
+		</p>
+		<p>
+			<input type="submit" value="Trimite">
+			<input type="reset" value="Sterge">
+			</p>
+	</form>
+</body>
+</html>
